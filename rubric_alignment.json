@@ -1,0 +1,24 @@
+{
+  "evaluation_mapping": {
+    "technical_implementation_30pct": {
+      "score_target": "30/30",
+      "proof": "Working PartyRock app, custom prompt chaining (@ references), Titan Image Generator integration."
+    },
+    "solution_effectiveness_30pct": {
+      "score_target": "30/30",
+      "proof": "Solves real financial literacy and feasibility challenges for rural women entrepreneurs."
+    },
+    "innovation_and_creativity_20pct": {
+      "score_target": "20/20",
+      "proof": "Combines unit economics math, logo design mockups, and dynamic chatbot coaching."
+    },
+    "implementation_quality_15pct": {
+      "score_target": "15/15",
+      "proof": "Tested across 3 distinct scenarios with structured output formatting."
+    },
+    "responsible_ai_5pct": {
+      "score_target": "5/5",
+      "proof": "Zero PII stored, financial disclaimer embedded, bias controls in place."
+    }
+  }
+}
