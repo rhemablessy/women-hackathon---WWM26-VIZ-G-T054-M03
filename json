@@ -1,0 +1,59 @@
+{
+  "project_metadata": {
+    "title": "Rural Venture Navigator",
+    "hackathon": "ASPIRE FOR HER × LOGITECH Women Who Master GenAI Hackathon",
+    "platform": "AWS PartyRock",
+    "app_url": "https://partyrock.aws/u/Blessy56/r7NcXHjc-/new-app-r7NcXHjc"
+  },
+  "challenge_details": {
+    "theme": "AI for Social Good & Economic Empowerment",
+    "problem_statement_id": "PS-RURAL-ENT-04",
+    "problem_statement_title": "Empowering Rural Women Entrepreneurs with Intelligent Business Feasibility & Decision Navigation",
+    "selected_scope": "Building an end-to-end GenAI application that evaluates unit economics, generates branding visuals, and provides step-by-step business action plans for micro-entrepreneurs."
+  },
+  "user_and_problem_definition": {
+    "primary_user": {
+      "persona": "Rural Women Micro-Entrepreneurs",
+      "example_user": "Sunita Devi (Artisan & Food Producer, Rural Anantapur)",
+      "target_demographic": "First-time women business owners in tier-2/tier-3/rural regions"
+    },
+    "current_challenge": "Lack of formal business training, financial literacy, and marketing resources leads to miscalculated unit economics and high initial venture failure rates.",
+    "unmet_need": "An intuitive, multilingual decision tool that provides real-time feasibility analysis, cost breakdown, and visual branding without requiring technical or business expertise.",
+    "clear_success_outcome": "Empower rural entrepreneurs to validate business ideas in under 5 minutes, accurately project profit margins, and generate immediate visual marketing assets."
+  },
+  "proposed_solution": {
+    "app_name": "Rural Venture Navigator",
+    "overview": "An interactive web application built on AWS PartyRock using Claude 3 and Amazon Titan/SDXL models to convert raw business ideas into actionable reports and branding mockups.",
+    "core_features": [
+      {
+        "feature_name": "Entrepreneur Input Profile",
+        "type": "Interactive Input Widgets",
+        "function": "Captures location, product details, sales channels, and cost breakdowns."
+      },
+      {
+        "feature_name": "AI Decision Engine",
+        "type": "Text Generation Widget",
+        "function": "Generates market fit reports, unit economics math, risk assessment, and a clear GO/NO-GO verdict with rich markdown and emojis."
+      },
+      {
+        "feature_name": "Visual Asset Generator",
+        "type": "Image Generation Widget",
+        "function": "Produces 1:1 square vector logos and product mockups using tailored color palettes."
+      },
+      {
+        "feature_name": "Venture Coach AI",
+        "type": "Chatbot Widget",
+        "function": "Provides interactive follow-up advice, pitch scripts, and real-time budget troubleshooting."
+      }
+    ],
+    "genai_models_used": [
+      "Anthropic Claude 3 / 3.5 Sonnet",
+      "Amazon Titan Image Generator v1 / SDXL"
+    ]
+  },
+  "responsible_ai_controls": {
+    "privacy": "No personally identifiable information (PII) required.",
+    "transparency": "Explicit disclaimers indicating AI-generated financial estimates require human verification.",
+    "accessibility": "Structured visual markdown with clear icons and emojis for scannability."
+  }
+}
