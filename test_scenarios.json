@@ -1,0 +1,26 @@
+{
+  "test_suite": "PartyRock App Validation",
+  "scenarios": [
+    {
+      "test_id": "TC-01",
+      "scenario_type": "Standard Rural Small-Scale Business",
+      "input": "Organic mango pickle, raw material cost ₹3000, selling locally.",
+      "expected_result": "Positive margin calculation, GO/PILOT verdict, local market branding logo.",
+      "status": "PASS"
+    },
+    {
+      "test_id": "TC-02",
+      "scenario_type": "High Transport Cost / Low Profit Venture",
+      "input": "Handmade clay pots shipped 200km away with ₹5000 shipping cost.",
+      "expected_result": "Warning alert on high logistics cost, MODIFY/PAUSE verdict, alternate channel advice.",
+      "status": "PASS"
+    },
+    {
+      "test_id": "TC-03",
+      "scenario_type": "Edge Case / Vague Input",
+      "input": "Selling products in village.",
+      "expected_result": "Prompt asking for clarification, generic guidance, low confidence rating.",
+      "status": "PASS"
+    }
+  ]
+}
